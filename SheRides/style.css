@@ -1,0 +1,367 @@
+* { 
+	margin: 0; 
+  padding: 0; 
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+:root {
+    background-color: #EBF1F5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+a{
+  text-decoration: none;
+}
+#logo{
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    position: -webkit-sticky;  
+     position: sticky;
+    top: 0;
+    background: #ECDCED;
+	  border-bottom: 8px solid #ECDCED;
+    width: 100%;
+    height: 65px;
+  font-size: 20px;
+}
+nav a{
+    height:fit-content;
+    width: fit-content;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 1.45em;
+    padding: 20px;
+    padding-left: 0px;
+  text-decoration: none;
+}
+#hate{
+  padding-top: 17px;
+  padding-left: 12px;
+}
+#left {
+  padding: 0px;
+  width:fit-content;
+}
+
+#leftLink{
+  margin-left: auto;
+}
+
+#logo{
+  width: 25%;
+}
+
+a:link{
+  color: #000000;
+  text-decoration: none;
+}
+a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+.active {
+  color: #000000;
+}
+#us{
+  display: block;
+  float: center;
+}
+#leftLink{
+  float: right;
+  display: block;
+  align-self: inline-flex flex-end;
+}
+.search{
+  width: 200px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  overflow: hidden;
+  background-color: #ffff;
+  border:  #ffff;
+  
+}
+
+.pic {
+  float:left;
+  padding-left: 150px;
+  padding-right: 30px;
+}
+.p1{
+  float: left;
+  font-size: 50px;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+.p2{
+  float: left;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+#driver input{
+  width: 200px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  padding-left: 40px;
+  overflow: hidden;
+  background-color: #ffff;
+  border:  #ffff;
+}
+#katimg{
+  height: 300px;
+	width: 250px;
+  object-fit: cover; 
+  border-radius:4px;
+/*   padding:4px; */
+  padding-left: 110px;
+}
+
+  
+#deniseimg{
+  height: 300px;
+	width: 250px;
+	object-fit: cover;
+  border-radius:4px;
+/*   padding:4px; */
+  padding-left: 100px;
+  
+}
+#jennyimg{
+  height: 300px;
+	width: 250px;
+	object-fit: cover;
+  border-radius:4px;
+/*   padding:4px; */
+  padding-left: 95px;
+}
+
+}
+#driver{
+  display: block;
+}
+
+#circ{
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: fixed;
+  bottom:0;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#call h1{
+  text-align: center;
+  font-size: 75px;
+  padding: 40px;
+}
+.creatorProfile{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+#mission{
+  font-size: 20px;
+}
+#us{
+  font-size: 20px;
+}
+#Jenny{
+  font-size: 20px;
+}
+#Denise{
+  font-size: 20px;
+}
+#Kat{
+  font-size: 20px;
+}
+#call h2{
+  text-align: center;
+  background-color: #ECDCED;
+  width: 300px;
+/*   padding: 12px 16px; */
+  font-size: 25px;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top:20px;
+  
+}
+#audio{
+  text-align: center;
+  padding: 100px 100px;
+}
+#call2 h2{
+  text-align: center;
+  background-color: #ECDCED;
+  width: 300px;
+/*   padding: 12px 16px; */
+  font-size: 25px;
+  cursor: pointer;
+  margin:auto;
+
+  padding-top:20px;
+  padding-bottom: 20px;
+  
+}
+
+#mess{
+  text-align: center;
+  padding: 100px 100px;
+}
+#profileName h1{
+  text-align: center;
+  font-size: 50px;
+}
+#profileName img{
+  padding-left: 90px;
+}
+#profileName{
+  display:block;
+  text-align: center;
+}
+#wallet{
+  float: left;
+  text-align: center;
+  background-color: #ECDCED;
+  width: 150px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left:100px;
+  margin-right: 100px;
+
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#trips{
+  float: left;
+  text-align: center;
+  background-color: #ECDCED;
+  width: 150px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left:100px;
+  margin-right: 100px;
+
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#editP{
+  float: left;
+  text-align: center;
+  background-color: #ECDCED;
+  width: 150px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left:100px;
+  margin-right: 100px;
+
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#infoBar{
+  display: block;
+  margin-left:135px;
+  position: fixed;
+}
+
+#rideRequest{
+  text-align: center;
+  background-color: #ECDCED;
+  width: 200px;
+  font-size: 15px;
+  cursor: pointer;
+  margin:auto;
+
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+#voice h1{
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+#button1{
+  float:left;
+  width: 200px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  overflow: hidden;
+  background-color: #ECDCED;
+  border:  #ECDCED;
+  margin-right: 20px;
+}
+#button2{
+  float:left;
+  width: 200px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  overflow: hidden;
+  background-color: #ECDCED;
+  border:  #ECDCED;
+}
+#audio{
+  display: block;
+  margin-left: 410px;
+  position: fixed;
+}
+
+#mess p{
+  padding-top: 150px;
+}
+
+#driversPic{
+  z-index: -1;
+  width: 300px;
+  height: 200px;
+}
+
+#driversPic2{
+  z-index: -1;
+  padding-left: 75px;
+  width: 200px;
+  height: 400px;
+}
+#stars{
+  z-index: -1;
+  width: 500px;
+  height: 100px;
+}
+td{
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+th{
+  
+}

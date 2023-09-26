@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+
+</head>
+
+<body>
+  <nav>
+    <a id="hate" href="index.html"><img id="logo" src="assets/reallogo.png">SheRides</a>
+    <div id="leftLink">
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="profile.html"><i class="fa-solid fa-user"></i></a>
+    </div>
+  </nav>
+  <div id="map" style="width: 100%; height: 400px;"></div>
+  <div>
+      <label for="destination-address">Enter destination address:</label>
+      <input type="text" id="destination-address">
+      <button id="find-route">Find Route</button>
+    </div>
+  <script src="server.js"></script>
+  <div id="driverList">
+    <table>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Pronouns</th>
+        <th>Rating</th>
+      </tr>
+      <tr>
+        <td><img id="driversPic" src="assets/driver1.png"></td>
+        <td>Abby</td>
+        <td>She/Her</td>
+        <td><img id="stars" src="assets/stars.png"</td>
+      </tr>
+      <tr>
+        <td><img id="driversPic2" src="assets/driver2.png"></td>
+        <td>Jade</td>
+        <td>She/Her</td>
+        <td><img id="stars" src="assets/stars.png"</td>
+      </tr>
+    </table>
+    
+  </div>
+
+
+</body>
+
+</html>
