@@ -16,9 +16,9 @@ Originally, we wanted implement our idea into an app, however we ran into issues
 Accomplishments that we're proud of:
 Coming up with an idea that we'd like to build upon for the future
 
-What we learned
+What we learned:
 For those of us that weren't as experienced with web development, we learned a lot through trial and error
 
-What's next for SheRides
+What's next for SheRides:
 Making SheRides into an app for IOS and android, and building upon the services we offer within the app such as the phone call simulator.
 
